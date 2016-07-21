@@ -12,7 +12,7 @@
     "Ben Manu",
     "Tim Kung"
   ],
-  "main": "index.js",
+  "main": "./lib/app.js",
   "scripts": {
     "build": "npm run js",
     "js": "browserify -t [ babelify ] lib/app.js -o index.js",
