@@ -29,7 +29,7 @@
     "lodash": "^4.13.1",
     "react": "^15.2.1",
     "react-dom": "^15.2.1",
-    "react-skeleton-boilerplate": "0.0.5"
+    "react-skeleton-boilerplate": "0.0.6"
   },
   "devDependencies": {
     "eslint": "^2.9.0",
