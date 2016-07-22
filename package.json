@@ -16,7 +16,8 @@
   "scripts": {
     "build": "npm run js",
     "js": "browserify -t [ babelify ] lib/app.js -o index.js",
-    "js:prod": "browserify -t [ babelify ] -t [ envify --NODE_ENV production ] lib/app.js -o index.js"
+    "js:prod": "browserify -t [ babelify ] -t [ envify --NODE_ENV production ] lib/app.js -o index.js",
+    "lint": "eslint lib/**"
   },
   "dependencies": {
     "babel-preset-es2015": "^6.9.0",
@@ -27,6 +28,14 @@
     "envify": "^3.4.1",
     "lodash": "^4.13.1",
     "react": "^15.2.1",
-    "react-dom": "^15.2.1"
+    "react-dom": "^15.2.1",
+    "react-skeleton-boilerplate": "0.0.2"
+  },
+  "devDependencies": {
+    "eslint": "^3.1.1",
+    "eslint-config-airbnb": "^9.0.1",
+    "eslint-plugin-import": "^1.11.1",
+    "eslint-plugin-jsx-a11y": "^2.0.1",
+    "eslint-plugin-react": "^5.2.2"
   }
 }
