@@ -6,7 +6,17 @@ There is also the `gh-pages` branch that can be used to preview your components,
 
 ```
 git checkout gh-pages
-npm start
+npm install
+npm run build
+```
+
+Component tasks:
+
+```
+npm install
+npm run lint
+npm run test
+npm run shrinkwrap
 ```
 
 ## Link

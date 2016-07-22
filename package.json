@@ -1,7 +1,7 @@
 {
   "name": "react-skeleton-boilerplate",
   "description": "A React ES6 skeleton boilerplate",
-  "version": "0.0.7",
+  "version": "0.0.8",
   "license": "BSD-2-Clause",
   "repository": {
     "type": "git",
@@ -15,10 +15,12 @@
   "main": "./lib/app.js",
   "scripts": {
     "lint": "eslint lib/**",
-    "test": "jest"
+    "test": "jest",
+    "shrinkwrap": "npm-shrinkwrap"
   },
   "dependencies": {
     "lodash": "^4.13.1",
+    "npm-shrinkwrap": "^200.5.1",
     "react": "^15.2.1",
     "react-dom": "^15.2.1",
     "reactcss": "^1.0.4"
