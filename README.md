@@ -19,5 +19,11 @@ npm run test
 npm run shrinkwrap
 ```
 
+To publish the component update the package version and run:
+
+```
+npm publish
+```
+
 ## Link
  - https://benmanu.github.io/react-skeleton/
