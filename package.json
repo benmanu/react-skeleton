@@ -14,7 +14,8 @@
   ],
   "main": "./lib/app.js",
   "scripts": {
-    "lint": "eslint lib/**"
+    "lint": "eslint lib/**",
+    "test": "jest"
   },
   "dependencies": {
     "lodash": "^4.13.1",
@@ -41,7 +42,8 @@
     "unmockedModulePathPatterns": [
       "node_modules/react/",
       "node_modules/react-dom/",
-      "node_modules/react-addons-test-utils/"
+      "node_modules/react-addons-test-utils/",
+      "node_modules/reactcss"
     ]
   }
 }
