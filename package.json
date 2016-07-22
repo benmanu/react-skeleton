@@ -1,7 +1,7 @@
 {
   "name": "react-skeleton-boilerplate",
   "description": "A React ES6 skeleton boilerplate",
-  "version": "0.0.5",
+  "version": "0.0.6",
   "license": "BSD-2-Clause",
   "repository": {
     "type": "git",
@@ -12,7 +12,7 @@
     "Ben Manu",
     "Tim Kung"
   ],
-  "main": "index.js",
+  "main": "./lib/app.js",
   "dependencies": {
     "lodash": "^4.13.1",
     "react": "^15.2.1",
@@ -26,5 +26,10 @@
     "eslint-plugin-jsx-a11y": "^1.2.0",
     "eslint-plugin-react": "^5.2.2",
     "react-addons-test-utils": "^15.2.1"
+  },
+  "browserify": {
+    "transform": [
+      "babelify"
+    ]
   }
 }
